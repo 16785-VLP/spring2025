@@ -1,0 +1,105 @@
+# Site settings
+course_name: "16-785 Integrated Intelligence in Robotics: Vision-and-Language Planning"
+
+course_topic_title: "Filmmaking using AI & Robotics"
+
+course_topic: "<p>Guillermo del Toro’s <i>Pinocchio (2022)</i>, an Oscar nominated stop motion animation movie, 
+took 15 years to make with a budget estimated over 35 million dollars. Another celebrated motion picture, 
+<i>Loving Vincent (2017)</i>, was fully hand painted by 152 artists and its production took 7 years, costing 5.5 
+million dollars. In this class, we will develop and experiment ideas to make such films using AI and 
+robotics technologies. Course topics include <b>language models, vision-language models, planning, and 
+learning in the context of robotics</b>.</p> <p>Examples of class projects include painted movies (robot painting), 
+stop motion movies (manipulation), animation (text to image/video generation), directing (direction following),
+and robotic cinematography.  The final projects will be premiered at the end of the semester. </p> "
+
+course_description: "<p>This is a project-oriented seminar course that covers interdisciplinary topics 
+on cognitive intelligence in robotic systems. Cognitive abilities constitute high-level, humanlike 
+intelligence that exhibits reasoning or problem-solving skills. Such abilities as semantic perception,
+use of language, and task planning can be built on top of low-level robot autonomy. The topics covered 
+generally bridge across multiple technical areas, for example, vision-language intersection and 
+language-action/plan grounding.</p> <p><b>The project theme in Spring 2024 is filmmaking</b> that presents 
+various robotics and machine learning challenges ranging from content generation such as scenario 
+generation or scene/video synthesis/editing to robotics automation such as autonomous camera control 
+or autonomous stop-motion control. The class will study both recent and seminal works in the field 
+of intelligent robotics. The learning objectives of class projects will also put a special emphasis 
+on research skills, e.g., problem formulation, literature review, ideation, evaluation planning, 
+results analysis, and hypothesis verification. <u>The course is discussion intensive, and thus attendance 
+is required.</u></p>"
+
+course_prereq: "There are no explicit prerequisites for this class, but a general background knowledge 
+in AI and machine learning is assumed."
+
+course_goals:
+    header: "In this course, we will strive to answer the following research questions and beyond 
+    towards the goal of developing cognitive capabilities on robots."
+    goals:
+        - goal: "How can we make robots to perform tasks following natural language instructions?"
+        - goal: "How can we develop robots that can describe in natural language what they perceive 
+        through vision or explain what they are doing and why?"
+        - goal: "How can we fuse information coming in multiple modalities, e.g., language and images, 
+        to understand context-aware, semantic meanings of sensory data?"
+        - goal: "How do we measure the quality of information translated between different modalities, 
+        e.g., how do we measure the quality of language description given an image? What are the 
+        limitations and shortcomings of existing metrics?"
+        - goal: "How can we make use of semantic information digested from raw sensory inputs in the 
+        process of planning to solve a problem/task?"
+        - goal: "How do we measure the performance of computer vision algorithms outside benchmark 
+        datasets, e.g., on robots?"
+        - goal: "How should learned knowledge be stored? Do we need a universal representation for 
+        knowledge?"
+        - goal: "How can we make robots learn to improve over time, e.g., by learning new skills?"
+    footer: "Using these research questions, we will learn to follow basic steps of conducting research 
+    through class projects."
+
+
+course_time: "Mondays, Wednesdays 11:00AM - 12:20PM"
+course_location: "Newell-Simon Hall (NSH) 3002"
+course_office_hours: "By Appointment"
+course_canvas: "https://canvas.cmu.edu/courses/39025"
+
+course_semester: "Spring 2024"
+
+baseurl: "/spring2024" # the subpath of your site, e.g. /blog/
+url: "http://16785-VLP.github.io/" # the base hostname & protocol for your site
+
+schoolname: "Bot Intelligence Group"
+schoolurl: "https://cmubig.github.io"
+# twitter_username: username 
+
+address: |
+    Carnegie Mellon University
+    5000 Forbes Ave
+    Pittsburgh, PA 15213, USA
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
