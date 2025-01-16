@@ -2,8 +2,6 @@ instructors:
   - name: Jean Oh
     profile_pic: /_images/pp/jeanoh.png
     webpage: https://cmubig.github.io
-
-teaching_assistants:
-  - name: Ingrid Navarro
-    profile_pic: /_images/pp/ta.png
-    webpage: https://navars.xyz
+  - name: Peter Schaldenbrand
+    profile_pic: /_images/pp/peter.jpg
+    webpage: https://pschaldenbrand.github.io/#about.html
