@@ -17,7 +17,7 @@ on cognitive intelligence in robotic systems. Cognitive abilities constitute hig
 intelligence that exhibits reasoning or problem-solving skills. Such abilities as semantic perception,
 use of language, and task planning can be built on top of low-level robot autonomy. The topics covered 
 generally bridge across multiple technical areas, for example, vision-language intersection and 
-language-action/plan grounding.</p> <p><b>The project theme in Spring 2024 is filmmaking</b> that presents 
+language-action/plan grounding.</p> <p><b>The project theme in Spring 2025 is filmmaking</b> that presents 
 various robotics and machine learning challenges ranging from content generation such as scenario 
 generation or scene/video synthesis/editing to robotics automation such as autonomous camera control 
 or autonomous stop-motion control. The class will study both recent and seminal works in the field 
@@ -57,9 +57,9 @@ course_location: "Newell-Simon Hall (NSH) 3002"
 course_office_hours: "By Appointment"
 course_canvas: "https://canvas.cmu.edu/courses/39025"
 
-course_semester: "Spring 2024"
+course_semester: "Spring 2025"
 
-baseurl: "/spring2024" # the subpath of your site, e.g. /blog/
+baseurl: "/spring2025" # the subpath of your site, e.g. /blog/
 url: "http://16785-VLP.github.io/" # the base hostname & protocol for your site
 
 schoolname: "Bot Intelligence Group"

@@ -1,15 +1,15 @@
 ---
 type: assignment
-date: 2024-01-19
-title: 'Reading Assignment #1'
+date: 2025-01-15
+title: 'Lightning Pitch'
 # attachment: /static_files/assignments/asg.zip 
 # solutions: /static_files/assignments/asg_solutions.pdf 
 due_event: 
     type: due
-    date: 2024-01-22T23:59:00+3:30
-    description: 'Assignment #1 due'
+    date: 2025-01-21T23:59:00+3:30
+    description: 'Lightning Pitch Due'
 ---
-Please read at least one paper from each paper group. For each paper you read, submit brief answers for the following: 
+<!-- Please read at least one paper from each paper group. For each paper you read, submit brief answers for the following: 
 
 - The title of the paper
 - Problem definition
@@ -29,4 +29,4 @@ Please read at least one paper from each paper group. For each paper you read, s
 ## Paper group 2: 
 
 * Sai Vemprala, Rogerio Bonatti, Arthur Bucker, and Ashish Kapoor. ChatGPT for Robotics: Design Principles and Model Abilities. 2023. arXiv:2306.17582 [cs.AI]. https://arxiv.org/abs/2306.17582Links to an external site. 
-* **Additional Question:** The above paper is one of the first works that used LLMs for robotics.  Among the papers that cited the above paper, which one sounds most intriguing to you? <a href="https://scholar.google.com/scholar?cites=3223909598681380499&as_sdt=5,39&sciodt=0,39&hl=en">Google Scholar</a>
+* **Additional Question:** The above paper is one of the first works that used LLMs for robotics.  Among the papers that cited the above paper, which one sounds most intriguing to you? <a href="https://scholar.google.com/scholar?cites=3223909598681380499&as_sdt=5,39&sciodt=0,39&hl=en">Google Scholar</a> -->

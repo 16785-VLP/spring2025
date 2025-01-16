@@ -1,8 +1,8 @@
 ---
 type: raw_event
-date: 2024-02-12
+date: 2025-01-27
 name: Guest Lecture
-description: 'Weiyan Shi'
+description: 'Peter Schaldenbrand'
 hide_from_announcments: true
 ---
-**Topic:** Dialogue Systems.
+**Topic:** Robot Painting

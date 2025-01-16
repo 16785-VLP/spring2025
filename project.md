@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spring 2024 Project
+title: Spring 2025 Project
 permalink: /project/
 ---
 
